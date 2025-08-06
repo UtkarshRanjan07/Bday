@@ -46,10 +46,10 @@ const SurpriseSection = () => {
 
   // Special collage photos for the surprise
   const surprisePhotos = [
-    "/lovable-uploads/21508498-9a94-4213-a9bb-d8711f622bdf.png",
-    "/lovable-uploads/32786a20-0401-4ce8-82b4-b23841e3c227.png",
-    "/lovable-uploads/5efd092b-93b7-4ffb-91dc-3122a950cc6e.png",
-    "/lovable-uploads/e6578a37-e5ce-48e3-9313-d2f379dc6749.png",
+    "/lovable-uploads/5.jpg",
+    "/lovable-uploads/17.jpg",
+    "/lovable-uploads/34.jpg",
+    "/lovable-uploads/39.jpg",
   ];
 
   return (
