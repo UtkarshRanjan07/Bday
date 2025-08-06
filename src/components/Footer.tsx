@@ -43,7 +43,7 @@ const Footer = () => {
           
           {/* Copyright */}
           <div className="pt-6 text-sm text-muted-foreground">
-            <p>© 2024 • A magical birthday celebration • Made with 💖</p>
+            <p>• A magical birthday celebration • Made with 💖 for Rachita Ranjan</p>
           </div>
         </div>
       </div>

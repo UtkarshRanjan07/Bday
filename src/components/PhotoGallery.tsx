@@ -12,7 +12,7 @@ const PhotoGallery = () => {
       src: `/lovable-uploads/${index}.jpg`,
       alt: `Rachita Memory ${index}`,
     };
-  });
+  }).sort(() => Math.random() - 0.5);
 
   return (
     <section id="gallery" className="py-20 px-4 bg-gradient-sakura">

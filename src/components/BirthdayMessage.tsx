@@ -27,7 +27,7 @@ const BirthdayMessage = () => {
               Happy Birthday, Rachita! 🎂
             </h2>
             
-            <div className="space-y-4 text-xl md:text-2xl text-magic-violet text-glow">
+            <div className="space-y-4 text-xl md:text-2xl text-white/85 drop-shadow-lg">
               <p className="leading-relaxed">
                 Wishing you endless happiness, boundless joy, 
               </p>
