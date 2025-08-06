@@ -19,10 +19,10 @@ const HeroSection = () => {
           <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
             🎂 Happy Birthday 🎂
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-magic-violet">
+          <h2 className="text-3xl md:text-5xl font-bold text-name-pink font-fredoka">
             Rachita Ranjan
           </h2>
-          <p className="text-2xl text-anime-purple">
+          <p className="text-2xl text-anime-purple font-quicksand">
             🎉 ✨ 💖 ✨ 🎉
           </p>
         </div>
