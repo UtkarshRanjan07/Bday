@@ -9,40 +9,49 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="min-h-screen bg-gradient-anime py-20 px-4">
-      <div className="max-w-4xl mx-auto text-center">
-        {/* Add lots of top space */}
-        <div className="h-20"></div>
-        
-        {/* Simple, visible title */}
+    <section className="relative min-h-screen flex items-start justify-center overflow-hidden bg-gradient-anime pt-24 pb-16">
+      <FloatingElements />
+      
+      {/* Background decorative elements */}
+      <div className="absolute inset-0 opacity-20">
+        <div className="sakura-falling absolute top-0 left-[10%] w-4 h-4 bg-sakura-pink rounded-full"></div>
+        <div className="sakura-falling absolute top-0 left-[30%] w-3 h-3 bg-sakura-light rounded-full" style={{ animationDelay: '2s' }}></div>
+        <div className="sakura-falling absolute top-0 left-[50%] w-5 h-5 bg-anime-purple rounded-full" style={{ animationDelay: '4s' }}></div>
+        <div className="sakura-falling absolute top-0 left-[70%] w-4 h-4 bg-anime-blue rounded-full" style={{ animationDelay: '6s' }}></div>
+        <div className="sakura-falling absolute top-0 left-[90%] w-3 h-3 bg-sparkle-gold rounded-full" style={{ animationDelay: '1s' }}></div>
+      </div>
+
+      {/* Main content */}
+      <div className="text-center z-10 px-4 max-w-4xl mx-auto mt-16">
         <div className="space-y-8">
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4">
-            🎂 Happy Birthday 🎂
+          {/* Title with glow effect */}
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-glow-strong anime-gradient bg-clip-text text-transparent bounce-in">
+            🎂 Happy Birthday
           </h1>
-          <h2 className="text-3xl md:text-5xl font-bold text-magic-violet">
+          <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold text-primary text-glow bounce-in" style={{ animationDelay: '0.3s' }}>
             Rachita Ranjan
           </h2>
-          <p className="text-2xl text-anime-purple">
+          <p className="text-xl md:text-2xl lg:text-3xl text-magic-violet text-glow bounce-in" style={{ animationDelay: '0.6s' }}>
             🎉 ✨ 💖 ✨ 🎉
           </p>
         </div>
 
         {/* Scroll button */}
-        <div className="mt-16">
-          <Button 
+        <div className="mt-20 bounce-in" style={{ animationDelay: '1s' }}>
+          <Button
             variant="outline" 
             size="lg"
             onClick={scrollToGallery}
-            className="rounded-full px-8 py-6 text-lg font-semibold bg-card/50 border-2 border-primary text-primary hover:bg-primary/20"
+            className="rounded-full px-8 py-6 text-lg font-semibold bg-card/20 backdrop-blur-sm border-2 border-primary/30 text-primary hover:bg-primary/20 hover:border-primary/50 hover:shadow-glow-soft transition-magic group"
           >
             <span className="mr-2">Explore Memories</span>
-            <ChevronDown className="w-6 h-6" />
+            <ChevronDown className="w-6 h-6 anime-float" />
           </Button>
         </div>
-        
-        {/* Add bottom space */}
-        <div className="h-20"></div>
       </div>
+
+      {/* Bottom gradient fade */}
+      <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-background/50 to-transparent"></div>
     </section>
   );
 };
