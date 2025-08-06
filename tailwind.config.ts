@@ -17,10 +17,6 @@ export default {
 				'2xl': '1400px'
 			}
 		},
-		fontFamily: {
-			'fredoka': ['Fredoka', 'sans-serif'],
-			'quicksand': ['Quicksand', 'sans-serif'],
-		},
 		extend: {
 			colors: {
 				border: 'hsl(var(--border))',
@@ -64,8 +60,6 @@ export default {
 				'sparkle-gold': 'hsl(var(--sparkle-gold))',
 				'magic-violet': 'hsl(var(--magic-violet))',
 				'birthday-rose': 'hsl(var(--birthday-rose))',
-				'dark-pink': 'hsl(var(--dark-pink))',
-				'name-pink': 'hsl(var(--name-pink))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',

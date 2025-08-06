@@ -45,8 +45,6 @@
     --sparkle-gold: 45 100% 70%;
     --magic-violet: 280 100% 85%;
     --birthday-rose: 340 85% 75%;
-    --dark-pink: 320 70% 55%;
-    --name-pink: 330 80% 65%;
 
     /* Gradients */
     --gradient-anime: linear-gradient(135deg, hsl(var(--sakura-pink)), hsl(var(--anime-purple)), hsl(var(--anime-blue)));
@@ -118,8 +116,6 @@
     --sparkle-gold: 45 90% 65%;
     --magic-violet: 280 80% 70%;
     --birthday-rose: 340 70% 65%;
-    --dark-pink: 320 60% 50%;
-    --name-pink: 330 70% 60%;
 
     --glow-soft: 0 0 25px hsl(var(--sakura-pink) / 0.7);
     --glow-strong: 0 0 50px hsl(var(--sparkle-gold) / 0.8);
