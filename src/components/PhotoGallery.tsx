@@ -5,19 +5,14 @@ import { Dialog, DialogContent } from "@/components/ui/dialog";
 const PhotoGallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
-  // Photos array with the uploaded images
-  const photos = [
-    { src: "/lovable-uploads/21508498-9a94-4213-a9bb-d8711f622bdf.png", alt: "Rachita in elegant white saree" },
-    { src: "/lovable-uploads/3eed22fd-80e5-4c25-a450-ff29903b1f6f.png", alt: "Rachita creating rangoli art" },
-    { src: "/lovable-uploads/32786a20-0401-4ce8-82b4-b23841e3c227.png", alt: "Rachita in beautiful blue traditional outfit" },
-    { src: "/lovable-uploads/a57b8a09-2bd4-4b8d-ba09-cea2e98b98d5.png", alt: "Rachita stylish mirror selfie" },
-    { src: "/lovable-uploads/5efd092b-93b7-4ffb-91dc-3122a950cc6e.png", alt: "Rachita cozy casual moment" },
-    { src: "/lovable-uploads/4bfc2ecb-8d66-4f08-9960-8146b0169370.png", alt: "Rachita artistic mirror reflection" },
-    { src: "/lovable-uploads/7dc48c1a-32e0-4b55-b523-9c16e7d96604.png", alt: "Rachita vintage camera style" },
-    { src: "/lovable-uploads/11a48fee-6259-4c1a-aca4-8994490b5d84.png", alt: "Rachita retro camera aesthetic" },
-    { src: "/lovable-uploads/1861ae7d-3656-479e-a8ac-2dd083138a4b.png", alt: "Rachita relaxing moment" },
-    { src: "/lovable-uploads/e6578a37-e5ce-48e3-9313-d2f379dc6749.png", alt: "Rachita natural smile" },
-  ];
+  // Generate photos dynamically for 1.jpg to 49.jpg
+  const photos = Array.from({ length: 48 }, (_, i) => {
+    const index = i + 1;
+    return {
+      src: `/lovable-uploads/${index}.jpg`,
+      alt: `Rachita Memory ${index}`,
+    };
+  });
 
   return (
     <section id="gallery" className="py-20 px-4 bg-gradient-sakura">

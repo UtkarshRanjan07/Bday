@@ -25,9 +25,14 @@ const HeroSection = () => {
       <div className="text-center z-10 px-4 max-w-4xl mx-auto mt-16">
         <div className="space-y-8">
           {/* Title with glow effect */}
-          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-glow-strong anime-gradient bg-clip-text text-transparent bounce-in">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold 
+            bg-gradient-to-r from-pink-400 via-purple-500 to-blue-400 
+            bg-clip-text text-transparent 
+            drop-shadow-[0_0_8px_rgba(255,255,255,0.4)]">
             🎂 Happy Birthday
           </h1>
+
+
           <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold text-primary text-glow bounce-in" style={{ animationDelay: '0.3s' }}>
             Rachita Ranjan
           </h2>
