@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-anime">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-anime pt-16">
       <FloatingElements />
       
       {/* Background decorative elements */}
@@ -22,16 +22,16 @@ const HeroSection = () => {
       </div>
 
       {/* Main content */}
-      <div className="text-center z-10 px-4 max-w-4xl mx-auto">
+      <div className="text-center z-10 px-4 max-w-4xl mx-auto mt-8">
         <div className="space-y-6">
           {/* Title with glow effect */}
-          <h1 className="text-6xl md:text-8xl font-bold text-glow-strong anime-gradient bg-clip-text text-transparent bounce-in">
+          <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-glow-strong anime-gradient bg-clip-text text-transparent bounce-in">
             🎂 Happy Birthday
           </h1>
-          <h2 className="text-4xl md:text-6xl font-bold text-primary text-glow bounce-in" style={{ animationDelay: '0.3s' }}>
+          <h2 className="text-2xl md:text-4xl lg:text-6xl font-bold text-primary text-glow bounce-in" style={{ animationDelay: '0.3s' }}>
             Rachita Ranjan
           </h2>
-          <p className="text-2xl md:text-3xl text-magic-violet text-glow bounce-in" style={{ animationDelay: '0.6s' }}>
+          <p className="text-xl md:text-2xl lg:text-3xl text-magic-violet text-glow bounce-in" style={{ animationDelay: '0.6s' }}>
             🎉 ✨ 💖 ✨ 🎉
           </p>
         </div>
