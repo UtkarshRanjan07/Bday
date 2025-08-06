@@ -65,7 +65,7 @@ const SurpriseSection = () => {
               <Button
                 onClick={handleGiftClick}
                 size="lg"
-                className="relative bg-gradient-magic text-primary-foreground font-bold text-2xl py-8 px-12 rounded-3xl shadow-glow-strong hover:shadow-glow-magic transition-magic transform hover:scale-105 magical-rotate group"
+                className="relative bg-gradient-magic text-primary-foreground font-bold text-2xl py-8 px-12 rounded-3xl shadow-glow-strong hover:shadow-glow-magic transition-magic transform hover:scale-105 animate-bounce group"
               >
                 <Gift className="w-12 h-12 mr-4 group-hover:animate-bounce" />
                 Click Me, Rachita!
