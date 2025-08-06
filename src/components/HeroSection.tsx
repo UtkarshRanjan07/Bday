@@ -9,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-anime pt-16">
+    <section className="relative min-h-screen flex items-start justify-center overflow-hidden bg-gradient-anime pt-24 pb-16">
       <FloatingElements />
       
       {/* Background decorative elements */}
@@ -22,8 +22,8 @@ const HeroSection = () => {
       </div>
 
       {/* Main content */}
-      <div className="text-center z-10 px-4 max-w-4xl mx-auto mt-8">
-        <div className="space-y-6">
+      <div className="text-center z-10 px-4 max-w-4xl mx-auto mt-16">
+        <div className="space-y-8">
           {/* Title with glow effect */}
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold text-glow-strong anime-gradient bg-clip-text text-transparent bounce-in">
             🎂 Happy Birthday
@@ -37,8 +37,8 @@ const HeroSection = () => {
         </div>
 
         {/* Scroll button */}
-        <div className="mt-16 bounce-in" style={{ animationDelay: '1s' }}>
-          <Button 
+        <div className="mt-20 bounce-in" style={{ animationDelay: '1s' }}>
+          <Button
             variant="outline" 
             size="lg"
             onClick={scrollToGallery}
