@@ -52,6 +52,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Anime Birthday Theme
+				'sakura-pink': 'hsl(var(--sakura-pink))',
+				'sakura-light': 'hsl(var(--sakura-light))',
+				'anime-purple': 'hsl(var(--anime-purple))',
+				'anime-blue': 'hsl(var(--anime-blue))',
+				'sparkle-gold': 'hsl(var(--sparkle-gold))',
+				'magic-violet': 'hsl(var(--magic-violet))',
+				'birthday-rose': 'hsl(var(--birthday-rose))',
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +70,20 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			backgroundImage: {
+				'gradient-anime': 'var(--gradient-anime)',
+				'gradient-sakura': 'var(--gradient-sakura)',
+				'gradient-magic': 'var(--gradient-magic)',
+				'gradient-birthday': 'var(--gradient-birthday)',
+			},
+			boxShadow: {
+				'glow-soft': 'var(--glow-soft)',
+				'glow-strong': 'var(--glow-strong)',
+				'glow-magic': 'var(--glow-magic)',
+			},
+			transitionTimingFunction: {
+				'magic': 'cubic-bezier(0.23, 1, 0.32, 1)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
